@@ -4,7 +4,10 @@ const app = express();
 const cors = require('cors');
 
 app.use(express.json());
+// handle cross-origin 
 app.use(cors());
+// make express shows static content (HTML, JS, etc.) from `build` directory
+app.use(express.static('build'));
 
 let notes = [
   { id: 1, content: "HTML is easy", date: "2019-05-30T17:30:31.098Z", important: true },
