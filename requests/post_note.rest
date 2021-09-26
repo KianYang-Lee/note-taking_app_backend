@@ -1,7 +1,17 @@
-POST http://localhost:3002/api/notes
+POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "Postman is a good tool for testing",
+  "content": "VS Code REST Client",
+  "important": true
+}
+
+#################
+# Invalid request
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "LOL",
   "important": true
 }
