@@ -1,3 +1,11 @@
+# Fullstack Open 2021
+
+This is repository for part 3b of fullstack open course.
+
+Added extra stuff and also serves as solutions for part 11c.
+
+## Instructions
+
 Deployed using Heroku. The steps are as follows:
 
 1. At root folder, create `Procfile` with following directive:
